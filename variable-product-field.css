@@ -1,0 +1,92 @@
+:root {
+  --shadow-1: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --shadow-2: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --shadow-3: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.main__input {
+  padding: 20px;
+  padding-bottom: 50px;
+  border: rgb(179, 179, 179) solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.input__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input__group .input__fild:focus {
+  outline: none;
+}
+.input__group .input__fild:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+  color: #5a5a5a;
+}
+
+.input__group .input__fild {
+  width: 150px;
+  height: 35px;
+  font-size: 17px;
+  border-radius: 7px;
+  padding-right: 5px;
+  padding-left: 10px;
+  border: none;
+  border-color: #b8cce0;
+  box-shadow: 0 0 5px #719ece;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.input__group .input__fild::-webkit-input-placeholder {
+  color: rgb(197, 197, 197);
+}
+
+.input__group .input__fild:nth-child(2) {
+  width: 250px;
+}
+.demo_fild {
+  height: 35px;
+  width: 35px;
+}
+
+.fild_btn {
+  height: 35px;
+  width: 35px;
+  border: none;
+  background: none;
+  border-radius: 100%;
+  background-color: rgb(99, 99, 99);
+  margin-top: 6px;
+  color: #e4e4e4;
+}
+
+.fild_btn:hover {
+  cursor: pointer;
+  background-color: rgb(51, 51, 51);
+}
+
+.next_btn a {
+  text-decoration: none;
+  background-color: slategrey;
+  padding: 10px 30px 10px;
+  font-size: 20px;
+  color: #f7f7f7;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.next_btn {
+  display: flex;
+  justify-content: end;
+  margin-top: -6%;
+  margin-right: 6%;
+}
+
+.next_btn a:hover {
+  background-color: rgb(72, 82, 92);
+}
